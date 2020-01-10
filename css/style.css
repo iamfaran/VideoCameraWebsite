@@ -1,0 +1,164 @@
+/*Universal settings */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  scrollbar-width: none;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+/* Variables CSS */
+
+:root {
+  --nav-bg-color: rgb(15, 16, 18);
+  --nav-font-color: rgb(127, 127, 127);
+  --videos-text: rgb(255, 255, 255);
+  --upload-text: rgb(127, 127, 127);
+  --btn-outline-yellow: rgb(252, 216, 5);
+  --darker-color: rgb(46, 49, 54);
+  --light-gray: rgb(61, 66, 70);
+  --icon-color: rgb(143, 143, 143);
+}
+
+/*Navbar section */
+
+.nav-color {
+  background-color: var(--nav-bg-color);
+}
+
+.nav-font-color {
+  color: var(--nav-font-color);
+  font-weight: bold;
+}
+
+/*Navbar Hover effect */
+
+/* Library content styling */
+
+.content-height {
+  height: 100vh;
+}
+
+.lib-border {
+  border: 10px solid var(--light-gray);
+}
+
+.lib-border-left {
+  border-left: 10px solid var(--light-gray);
+}
+
+.videos-text {
+  color: var(--videos-text);
+  margin-bottom: 50px;
+}
+.imgs-bg-color {
+  background-color: var(--darker-color);
+  padding: 20px;
+}
+
+.img-text {
+  color: var(--videos-text);
+}
+
+.upload-text {
+  color: var(--upload-text);
+}
+
+.btn-outline-yellow {
+  background-color: var(--btn-outline-yellow);
+}
+
+.name-input {
+  background-color: var(--light-gray);
+}
+
+.arrow-img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-block {
+  display: block;
+}
+.input-block {
+  display: block;
+}
+.nav-link {
+  color: var(--upload-text);
+  padding-top: 1rem;
+  padding-bottom: 0px;
+}
+
+.nav-link:hover {
+  color: var(--videos-text);
+  border-bottom: 4px solid var(--btn-outline-yellow);
+}
+
+.myactive {
+  color: var(--videos-text);
+  border-bottom: 4px solid var(--btn-outline-yellow);
+}
+
+.arrow-yellow {
+  color: var(--btn-outline-yellow);
+}
+
+.comp-btn {
+  background-color: var(--light-gray);
+}
+
+.comp-btn:hover {
+  color: var(--btn-outline-yellow);
+}
+
+.videos-avail {
+  padding-top: 10px;
+}
+
+.upload-new {
+  padding-top: 10px;
+}
+.input-border {
+  border: none;
+}
+
+/* Custom Media queries */
+
+@media screen and (max-width: 1024px) {
+  .content-height {
+    height: auto;
+  }
+  .lib-border-left {
+    border-left: none;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .content-height {
+    height: 100%;
+    height: 708px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .content-height {
+    height: 100%;
+    height: 1020px;
+  }
+}

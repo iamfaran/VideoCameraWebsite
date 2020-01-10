@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bootstrap BoilerPlate</title>
+    <script
+      src="https://kit.fontawesome.com/b1ca5b7284.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/parameters1.css" />
+  </head>
+  <body>
+    <!-- Start Here  -->
+    <section id="mynavbar">
+      <nav class="navbar navbar-expand-lg  nav-color ">
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="container">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link nav-font-color " href="index.html"
+                  >LIBRARY <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-font-color myactive"
+                  href="parameters.html"
+                  >PARAMETERS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-font-color " href="#">DASHBOARD</a>
+              </li>
+              <li class="nav-item"></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Start of Library Content -->
+    <section id="parameters-content">
+      <div class="container-fluid">
+        <div class="row parameters-content parameters-border">
+          <div
+            class="col-xl-2 imgs-bg-color  videos-avail parameters-border-right"
+          >
+            <h6 class="img-text mb-4">
+              VIDEOS AVAILABLE
+            </h6>
+            <a
+              href="https://source.unsplash.com/random/845x479"
+              data-height="479"
+              data-width="845"
+            >
+              <img
+                class="img-fluid"
+                src="https://source.unsplash.com/random/845x479"
+                alt=""
+              />
+            </a>
+            <div class="img-text">
+              <p>
+                img1<br />
+                <span class="upload-text">Uploaded:</span> 12/12/2019 <br />
+                <span class="upload-text">Duration:</span> 5:22
+              </p>
+            </div>
+
+            <button
+              class="btn comp-btn img-text w-100 bottom-space add-btn-space"
+            >
+              Add new video
+              <i class="fas fa-arrow-circle-right arrow-yellow"></i>
+            </button>
+          </div>
+          <div class=" col-xl-6 imgs-bg-color myblock myscroller">
+            <h6 class="img-text mb-4">REVIEW VIDEO</h6>
+            <!-- first row -->
+            <div class="mb-4">
+              <button class="btn btn-outline-primary btn-sm">Play Video</button>
+              <button class="btn btn-outline-yellow btn-sm ml-3">
+                Draw Zones
+              </button>
+            </div>
+
+            <img
+              class="img-fluid my-img-lg my-img-md"
+              src="imgs/LCA+Images+1200+x+850+2.jpg"
+              alt=""
+            />
+
+            <!-- start of card code -->
+
+            <div class="row">
+              <div class="col-sm-4 padding-l">
+                <h6 class="img-text mt-2">Areas of interest</h6>
+                <div class="card bg-dark">
+                  <div class="card-body zones-bg">
+                    <p class="img-text font-weight-bold">DENSITY ZONES</p>
+
+                    <p class="id-text img-text d-inline">ID</p>
+
+                    <br />
+
+                    <p class="card-text"></p>
+                    <button class="btn btn-blue w-100  font-weight-bold">
+                      <i class="fas fa-plus  icon-color "></i>Add New
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-xl-4 imgs-bg-color myblock parameters-border-left">
+            <h6 class="img-text mb-4 ">PARAMETER ANALYSIS</h6>
+            <div class="mb-4">
+              <button class="btn btn-outline-primary btn-sm">Play Video</button>
+              <button class="btn btn-outline-yellow btn-sm ml-3">
+                Draw Zones
+              </button>
+            </div>
+            <div class="upload-content">
+              <label for="file-upload" class="img-text  ">Detection model</label
+              ><br />
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary text-left list-style w-100 dropdown-color input-border"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dropdown button
+                  <span class="fas fa-caret-down float-right fa-2x"></span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <label for="file-upload" class="img-text custom-spacing"
+                >Computing device</label
+              ><br />
+              <div class="dropdown ">
+                <button
+                  class="btn btn-secondary text-left list-style w-100 dropdown-color input-border"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dropdown button
+                  <span class="fas fa-caret-down float-right fa-2x"></span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <label for="analyzie" class="img-text custom-spacing"
+                >Analyze 1 frame out of XX frames</label
+              >
+              <input
+                type="text"
+                class="form-control myinputs input-block input-border"
+                id="inputPassword2"
+                placeholder="xyz"
+              />
+              <label for="analyzie" class="img-text custom-spacing"
+                >Image size (in pixels)</label
+              >
+              <input
+                type="text"
+                class="form-control myinputs input-block input-border"
+                id="inputPassword2"
+                placeholder="xyz"
+              />
+              <label for="analyzie" class="img-text custom-spacing"
+                >Confidence threshold</label
+              >
+              <input
+                type="text"
+                class="form-control myinputs input-block input-border"
+                id="inputPassword2"
+                placeholder="xyz"
+              />
+              <label for="categories" class="img-text custom-spacing"
+                >Categories of interest</label
+              >
+            </div>
+
+            <button
+              class="btn btn-outline-yellow float-right w-50 analysis-btn font-weight-bold"
+            >
+              Start Analysis
+            </button>
+
+            <div class="w-50 custom-spacing">
+              <span class="list-style">
+                <i class="fas fa-circle yellow-col"></i>People
+              </span>
+              <br />
+              <span class="list-style">
+                <i class="fas fa-circle yellow-col"></i>Bicycles
+              </span>
+              <br />
+              <span class="list-style">
+                <i class="fas fa-circle yellow-col"></i>Motorbikes
+              </span>
+              <br />
+              <span class="list-style">
+                <i class="fas fa-circle yellow-col"></i>Cars
+              </span>
+              <br />
+              <span class="list-style">
+                <i class="far fa-circle yellow-col"></i>Vans
+              </span>
+              <br />
+              <span class="list-style">
+                <i class="far fa-circle yellow-col"></i>Trucks
+              </span>
+              <br />
+              <span class="list-style d-inline">
+                <i class="far fa-circle yellow-col"></i>Buses
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Get current year for the copy right section -->
+    <script>
+      //$("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>
